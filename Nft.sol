@@ -9,7 +9,7 @@ import "@openzeppelin/contracts/access/Ownable.sol";
 contract DopeDegrains is ERC721, ERC721Enumerable, Pausable, Ownable {
     using Strings for uint256;
 
-    string public baseURI;
+    string public baseURI = "https://gray-worthwhile-crab-543.mypinata.cloud/ipfs/QmQ3N7yWAKnAY5XbCZwNKPKQuiWXVnGPZdvaVigEWwUZsh/";
     string public baseExtension = ".json";
     uint256 public cost = 0.25 ether;
     uint256 public maxSupply = 5000;
